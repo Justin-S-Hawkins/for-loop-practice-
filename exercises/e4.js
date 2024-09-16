@@ -5,7 +5,7 @@
 
 export function findMinValueInArray(array) {
   // Your code goes here...
-  let min = 0;
+  let min = array[0];
   for (let i = 0; i < array.length; i++){
     if (array[0] > array[i]){
      min = array[i]
